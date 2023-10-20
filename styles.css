@@ -1,75 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
+body{
     margin: 0;
     padding: 0;
-    background-image:url(space2.jpg);
-    
-    
 }
 
-.header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
+header{
+    height: 75px;
+    background-color: aquamarine;
 }
 
-.nav {
-    background-color: #ddd;
-    padding: 10px;
-   
-      
+.w3schools-logo{
+    width: 100px;
 }
 
-.nav ul {
-    list-style-type: none;
-    padding: 0;
- 
-}
-
-.nav ul li {
-    display: inline;
-    margin-right: 15px;
-   
-
-
-}
-
-.content {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    min-height: 300px;
-}
-
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
+.w3schools-logo img{
     width: 100%;
 }
- h1{
-    text-align:center;
-  }
-
-  form{
-     text-align:center;
-     
-   }
-    h2{
-       text-align:center;
-       text-style:bold;
-       text-decoration:underline;
-       hover-mouse:yello;
-       }
-
-
-
-
-
-
-
-
