@@ -96,3 +96,81 @@ header{
     
     margin: 4px;
 }
+
+.menu-container{
+    height: 100%;
+}
+.menu-container li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 2px;
+}
+
+.menu-container ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(28, 31, 40);
+    margin-bottom: 0px;
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.content-container{
+    height: 500px;
+    background-color: rgb(28, 31, 40);
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-container .heading{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+}
+
+.content-container .line{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(241, 241, 76);
+    padding-bottom: 15px;
+}
+
+.search{
+    text-align: center;
+    padding: 20px;
+}
+
+.search input{
+    padding: 10px;
+    width: 30%;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+}
+
+.follow-link{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.follow-link a{
+    color: white;
+    font-weight: bold;
+}
+
+.container-html{
+    height: 500px;
+    background-color: #93eaca;
+}
