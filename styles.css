@@ -1,17 +1,98 @@
+:root{
+    --dark-green: #04AA6D;
+    --light-green: #20c997
+}
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 header{
     height: 75px;
-    background-color: aquamarine;
+    background-color: white;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
 }
 
 .w3schools-logo{
-    width: 100px;
+    width: 50px;
+    margin: 2px;
 }
 
 .w3schools-logo img{
     width: 100%;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-left a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    font-size: 17px;
+    color: black;
+    
+    height: 100%;
+}
+
+.header-left a:hover{
+    background-color: var(--dark-green);
+    color: white;
+}
+
+.fa-solid{
+    padding: 0px 3px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.header-right a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 17px;
+    color: black;
+    margin: 1px 2px;
+}
+
+
+.header-right a:hover{
+    border: 1px solid var(--dark-green);
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.btn-nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.btn-nav a{
+    padding: 5px 10px;
+    border: 1px solid var(--dark-green);
+    border-radius: 25px;
+    background-color: var(--light-green);
+    color: white;
+}
+
+.header-right .btn{
+    
+    margin: 4px;
 }
