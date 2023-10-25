@@ -176,3 +176,37 @@ header{
     display: flex;
     align-items: center;
 }
+
+.second{
+    margin: auto;
+    align-items: center;
+    
+}
+.first{
+    margin: auto;
+    
+}
+
+.first-txt{
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.first-para{
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.link-btns{
+    display: block;
+    text-align: center;
+    border: solid 1px blue;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+}
